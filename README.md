@@ -7,7 +7,7 @@ This is the home page user will see
 ![Alt text](https://github.com/yangjames192/Othelo/blob/master/main.png "Home Page").
 
 This is the page user plays against another user.
-![Alt text](https://github.com/yangjames192/Othelo/blob/master/single.png "Single Player Page").
+![Alt text](https://github.com/yangjames192/Othelo/blob/master/tow%20player.png "Two Player Page").
 
 This is the page user plays against AI.
 ![Alt text](https://github.com/yangjames192/Othelo/blob/master/single.png "Single Player Page").
