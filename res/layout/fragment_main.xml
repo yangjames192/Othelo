@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+        android:orientation="vertical" android:layout_width="fill_parent"
+ 
+        android:layout_height="fill_parent">
+ 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Player"
+            android:background="@drawable/btn_default_normal"
+            android:textColor="#ffffff"
+            android:onClick="singleGame" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two Players"
+            android:background="@drawable/btn_default_normal"
+            android:onClick="mutiGame"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_default_normal"
+            android:text="How to Play"
+            android:onClick="help"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/othello" />
+ 
+</LinearLayout>
+ 

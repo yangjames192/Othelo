@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layerType="software" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_default_normal"
+        android:text="Start Game"
+        android:textColor="#ffffff"
+        android:onClick="start" />
+
+    <com.example.othello.GameView
+        android:id="@+id/canvas_view"
+        android:layout_width="wrap_content"
+        android:layout_height="392dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="8.56" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_default_normal"
+        android:text="Undo"
+        android:textColor="#ffffff"
+        android:onClick="undo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:background="@drawable/btn_default_normal"
+        android:text="Restart Game"
+        android:textColor="#ffffff"
+        android:onClick="restart" />
+
+</RelativeLayout>

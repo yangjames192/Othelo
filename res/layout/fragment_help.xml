@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.othello.HelpActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="For the specific game of Othello (as technically differing from Reversi), the rules state that the game begins with 
+        four disks placed in a square in the middle of the grid, two facing white side up, two pieces with the dark side up, with 
+        same-colored disks on a diagonal with each other. Convention has initial board position such that the disks with dark side up are
+         to the north-east and south-west (from both players' perspectives), though this is only marginally meaningful to play 
+         (where opening memorization is an issue, some players may benefit from consistency on this). The dark player moves first." />
+
+</RelativeLayout>
